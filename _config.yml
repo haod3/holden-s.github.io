@@ -11,7 +11,7 @@ title:               Holden-s的博客
 tagline:             思考、总结、分享
 description:         '本博客主题<a href="https://github.com/poole/lanyon" target="_blank">lanyon</a>由<a href="https://twitter.com/mdo" target="_blank">@mdo</a>提供'
 url:                 http://holden-s.github.io
-baseurl:             http://holden-s.github.io/home/
+baseurl:             ''
 paginate:            5
 
 # About/contact
