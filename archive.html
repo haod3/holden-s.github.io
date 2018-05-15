@@ -1,0 +1,22 @@
+---
+layout: page
+title: 目录
+---
+
+<div class="related">
+    {% assign posts_list = site.posts | sort:"url" %}
+    {% for node in posts_list %}
+      {% if node.title != null %}
+        {% if node.layout == "post" %}
+          <ul class="related-posts">
+            <li>
+              <a href="{{ site.baseurl }}{{ node.url }}">
+                {{ node.title }}
+                <small>{{ node.date | date_to_string }}</small>
+              </a>
+            </li>
+          </ul>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+</div>
