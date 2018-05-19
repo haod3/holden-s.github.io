@@ -13,6 +13,7 @@ description:         '本博客主题<a href="https://github.com/poole/lanyon" t
 url:                 http://holden-s.github.io
 baseurl:             ''
 paginate:            5
+excerpt_separator: <!-- more -->
 
 # About/contact
 author:

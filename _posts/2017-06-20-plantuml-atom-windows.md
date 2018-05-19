@@ -4,6 +4,7 @@ title: 在windows下atom上搭建PlantUML书写环境
 ---
 
 PlantUML是一款使用纯文本绘制UML图的开源软件。它的优点是能够帮助作者把精力集中到内容的书写上而不是格式的调整。本文介绍了一种在windows环境下atom编辑器上搭建PlantUML书写环境的方法。
+<!-- more -->
 
 ### 1. 工具准备
 - atom
